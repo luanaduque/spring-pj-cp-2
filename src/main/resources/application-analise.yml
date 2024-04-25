@@ -5,6 +5,6 @@ spring:
     password: ${DB_DESENV_PASSWORD:261104}
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     open-in-view: false
     show-sql: true
