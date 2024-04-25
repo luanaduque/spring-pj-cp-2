@@ -11,7 +11,7 @@ import br.com.fiap.concessionaria.service.TipoVeiculoService;
 import br.com.fiap.concessionaria.service.VeiculoService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Example;
+import org.springframework.data.domain.Example; 
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
