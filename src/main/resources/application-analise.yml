@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mariadb://${DB_DESENV_SERVER:oracle.fiap.com.br}:${DB_DESENV_PORT:1521}/${DB_DESENV_NAME:spring-pj-cp-2}?createDatabaseIfNotExist=true
-    username: ${DB_DESENV_USERNAME:rm550813}
-    password: ${DB_DESENV_PASSWORD:261104}
+    username: ${DB_DESENV_USERNAME:rm99533}
+    password: ${DB_DESENV_PASSWORD:291101}
   jpa:
     hibernate:
       ddl-auto: create
